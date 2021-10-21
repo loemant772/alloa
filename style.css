@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #000000;
 }
 
 h2 {
@@ -12,24 +12,29 @@ h2 {
 .Navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #15406c;
+    padding-top: 25px;
 }
 .Navbar .Navbar_Image {
     display: flex;
-    padding-left: 10px;
+    padding-left: 75px;
     align-items: center;
 }
 
 .Navbar li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
-    font-size: 20px;
-    padding: 30px;
+    font-size: 18px;
+    padding: 25px;
+}
+
+.Navbar .NavBar_Links {
+    padding-right: 75px;
 }
 
 .Navbar li a {
     color: #02b0f0;
     transition: all 0.3 ease 0s;
+    text-decoration: none;
 }
 
 .Navbar li a:hover {
