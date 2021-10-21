@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+}
+
+h2 {
+    text-align: center;
+    color: #02b0f0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #15406c;
+}
+.Navbar .Navbar_Image {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.Navbar li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.Navbar li a {
+    color: #02b0f0;
+    transition: all 0.3 ease 0s;
+}
+
+.Navbar li a:hover {
+    color: #12a89d;
+}
